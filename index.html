@@ -1,0 +1,71 @@
+<html>
+
+<head>
+  <title>Todo</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
+</head>
+
+<body>
+
+  <div id="todo-container">
+    <div id="todo-image-name">
+      <img src="img/to-do-list.svg" alt="">
+      <h1> Add your List here</h1>
+    </div>
+
+    <div id="todo-list">
+      <div id="add-todo">
+        <!-- <div id="add"> -->
+        <input placeholder="Add a task and press Enter" class="add-task" id="add" data-helloWord="asdasdas" />
+        <!-- </div> -->
+        <div id="complete-all">
+          <span id="checked-all">
+            <!-- <span> -->
+            <i class="fa-solid fa-check-double"></i>
+            <!-- </span> -->
+            complete all Tasks
+          </span>
+          <span id="clear-all">Clear All </span>
+          <!-- <span id="total-tasks">Total tasks: <span id="tasks-counter">0</span></span> -->
+        </div>
+
+      </div>
+      <div id="list-container">
+        <ul id="list">
+          <!-- <li>
+            <input type="radio" id="task1" data-id="12" class="custom-checkbox">
+            <label for="task1">Buy groceries</label>
+            <img src="img/circle-xmark.svg" class="delete" data-id="12" />
+          </li> -->
+        </ul>
+      </div>
+
+      <div id="complete-all" class="footer">
+        <div>
+          <span id="total-tasks"><span id="tasks-counter">0</span> &nbsp;tasks left </span>
+        </div>
+        <div>
+          <span id="all">All </span> &nbsp;
+          <span id="uncompleted">Uncompleted </span> &nbsp;
+          <span id="completed">Completed </span> &nbsp;
+
+        </div>
+
+        <!-- <span id="total-tasks">Total tasks: <span id="tasks-counter">0</span></span> -->
+      </div>
+    </div>
+  </div>
+  <script src="todo.js"></script>
+  <script>
+    todo.initialize();//calling function from here
+    //console.log('todo: ', todo);
+  </script>
+</body>
+
+</html>
