@@ -19,10 +19,10 @@ A todo list app Using HTML,CSS and JavaScript
 	- checkTodo
 	- renderTodosList
 	- showNotification
--filters
-	-complete All
-	-clear All
-	-display All
-	-display only completed
-	-display only uncompleted
-	-count of each type of task(completed,uncompleted,all)
+- filters
+	- complete All
+	- clear All
+	- display All
+	- display only completed
+	- display only uncompleted
+	- count of each type of task(completed,uncompleted,all)
