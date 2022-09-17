@@ -218,32 +218,32 @@ h1 {
     color: gray;
 }
 
-/* working fine for lap */
- @media only screen and (min-width:700px) {  
-    #todo-container {
-      width: 45vw;
-      height: 98vh;  
+
+ @media only screen and (min-width:700px) {  /* for laptop */
+  #todo-container {
+    width: 45vw;
+    height: 98vh;  
+    margin: auto;
+    border: 1px solid black;
+    background-color: #D4D6DD;
+  }
+  
+}
+@media only screen and (max-width:700px) { /* for mobile */ 
+   #todo-container {
+      width: 100vw;
+      height: 100%;
       margin: 0px;
       border: 1px solid black;
       background-color: #D4D6DD;
-    }
-    
+   }
+   #todo-container #todo-list {
+    height: 87%;
   }
-  @media only screen and (max-width:700px) {  
-     #todo-container {
-        width: 100vw;
-        height: 100%;
-        margin: 0px;
-        border: 1px solid black;
-        background-color: #D4D6DD;
-     }
-     #todo-container #todo-list {
-      height: 87%;
-    }
-    #todo-image-name img{
-      width: 50px;
-      height: 50px;
-      margin: 0px 0px 0px 20%;
-    }
-    
-   } 
+  #todo-image-name img{
+    width: 50px;
+    height: 50px;
+    margin: 0px 0px 0px 20%;
+  }
+  
+ } 
