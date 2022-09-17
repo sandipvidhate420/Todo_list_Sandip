@@ -215,7 +215,7 @@ h1 {
     color: gray;
 }
 
-@media screen and (max-width: 400px) or (max-width: 490px) {
+@media screen and (max-width: 700px)  {
 
   #todo-container {
     width: 100vw;
